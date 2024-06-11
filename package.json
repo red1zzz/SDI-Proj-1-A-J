@@ -1,0 +1,12 @@
+{
+  "name": "sdi-proj-1-a-j",
+  "version": "1.0.0",
+  "description": "First SDI Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
