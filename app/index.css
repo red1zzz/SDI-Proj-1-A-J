@@ -1,0 +1,19 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+
+.done {
+    text-decoration: line-through;
+}
+
+.header {
+    height: 3.5rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-list li {
+    margin-top: 0.5rem;
+}

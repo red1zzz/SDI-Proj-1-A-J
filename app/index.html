@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do App </title>
-    <link rel ="stylesheet" href = "index.css">
-    <script src ="index.js"> </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do App </title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"> </script>
 </head>
+
 <body>
-    <h1>To Do App</h1>
-    <ul id="todo-list"> </ul>
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Todo List
+        </h1>
+        <h2 class="subtitle">
+          This is a project to manage your daily tasks
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="field has-addons panel-block">
+        <div class="control">
+          <input id="todo-input" class="input is-fullwidth" type="text" name="todo" placeholder="Add a new task"
+            autocomplete="off">
+        </div>
+        <div class="control">
+          <button id="add-todo-btn" class="button is-primary">Add task</button>
+        </div>
+      </div>
+
+      <ul id="todo-list" class="todo-list"></ul>
+    </div>
+  </section>
 </body>
+
 </html>
